@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D5E93460-F4D9-4642-96A1-58CDF8D594F1}"
+	ProjectSection(SolutionItems) = preProject
+		Services\ports.txt = Services\ports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{46986075-6402-4457-B326-2B3C1129872D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QtechCourse.Services.Catalog", "Services\Catalog\QtechCourse.Services.Catalog\QtechCourse.Services.Catalog.csproj", "{A721415C-9829-4749-9674-219617BB8126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46986075-6402-4457-B326-2B3C1129872D} = {D5E93460-F4D9-4642-96A1-58CDF8D594F1}
+		{A721415C-9829-4749-9674-219617BB8126} = {46986075-6402-4457-B326-2B3C1129872D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A721415C-9829-4749-9674-219617BB8126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A721415C-9829-4749-9674-219617BB8126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A721415C-9829-4749-9674-219617BB8126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A721415C-9829-4749-9674-219617BB8126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

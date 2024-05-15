@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\QtechCourse.Services.Catalog.props" />
+</Project>
