@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Services\\Catalog\\QtechCourse.Services.Catalog\\QtechCourse.Services.Catalog.csproj": {}
+    "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Shared\\Qtech.Shared\\Qtech.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Services\\Catalog\\QtechCourse.Services.Catalog\\QtechCourse.Services.Catalog.csproj": {
+    "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Shared\\Qtech.Shared\\Qtech.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Services\\Catalog\\QtechCourse.Services.Catalog\\QtechCourse.Services.Catalog.csproj",
-        "projectName": "QtechCourse.Services.Catalog",
-        "projectPath": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Services\\Catalog\\QtechCourse.Services.Catalog\\QtechCourse.Services.Catalog.csproj",
+        "projectUniqueName": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Shared\\Qtech.Shared\\Qtech.Shared.csproj",
+        "projectName": "Qtech.Shared",
+        "projectPath": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Shared\\Qtech.Shared\\Qtech.Shared.csproj",
         "packagesPath": "C:\\Users\\hmztp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Services\\Catalog\\QtechCourse.Services.Catalog\\obj\\",
+        "outputPath": "C:\\Users\\hmztp\\RiderProjects\\QTech.Microservices\\Shared\\Qtech.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hmztp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.25.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -65,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
